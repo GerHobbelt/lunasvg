@@ -7,6 +7,7 @@ target_include_directories(lunasvg
     # we need to look in the installed include directory
     PUBLIC
     $<INSTALL_INTERFACE:include>
+    $<INSTALL_INTERFACE:include/lunasvg>
 
     # When building the lunasvg library we need to look in the
     # build dir for the lunasvg_export.h header and in the source
